@@ -7,10 +7,6 @@ on:
   pull_request:
     branches:
       - '*'
-  workflow_dispatch:
-
-  workflow_call:
-
 jobs:
   quality-check:
     runs-on: ubuntu-latest
